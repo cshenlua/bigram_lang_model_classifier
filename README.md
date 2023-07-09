@@ -1,5 +1,5 @@
 # bigram_lang_model_classifier
-A program that utilizes n-grams to classify authors based on a set of training text. 
+A Python program that implements a language classification system based on bigram probabilities. The program trains a model using text data from different authors, considering sequences of two adjacent words (bigrams). Additionally, it incorporates LaPlace smoothing to handle unseen bigrams. After training, the model is capable of prediciting the authorship of sentences or text based on learned patterns. It can either be tested on a specific file or evaluated on a development set to measure the accuracy of author attribution.
 
 
 # Run : 
